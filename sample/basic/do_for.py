@@ -19,3 +19,10 @@ L=['Bart','Lisa','Adam']
 for x in L:
     print('Hello,',x)
 exit()
+
+#打印101以内每个数累计相加
+sum=0
+for x in range(101):
+	sum=sum+x
+	print(sum)
+exit()
